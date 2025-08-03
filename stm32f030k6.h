@@ -70,4 +70,15 @@ typedef struct {
 #define GPIOA_PCLK_EN()      (RCC-> AHBENRR |= (1 << 17))
 #define GPIOB_PCLK_EN()      (RCC-> AHBENRR |= (1 << 18))
 
+/*
+ * Clock Enable macros 
+ */
+
+#define GPIOA_PCLK_EN()      (RCC-> AHBENRR |= (1 << 17))
+#define GPIOB_PCLK_EN()      (RCC-> AHBENRR |= (1 << 18))
+
+/*
+ * Clock Disable macros 
+ */
+
 #endif
